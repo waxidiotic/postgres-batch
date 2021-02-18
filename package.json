@@ -1,0 +1,17 @@
+{
+  "name": "postgres-batch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Bussey <abussey@jwplayer.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.5.1"
+  },
+  "scripts": {
+    "run:dev": "NODE_ENV=dev node ./index.js",
+    "run:stg": "NODE_ENV=stg node ./index.js",
+    "run:prod": "NODE_ENV=prod node ./index.js"
+  }
+}
